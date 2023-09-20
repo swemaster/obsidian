@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian math.md",
+                "file": "Database/Shéma relationnel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "431c8a8e554904cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Algèbre relationnelle.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian math.md",
+                "file": "Database/Algèbre relationnelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian math.md",
+                "file": "Database/Algèbre relationnelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian math.md"
+                "file": "Database/Algèbre relationnelle.md"
               }
             }
           }
@@ -159,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5ed307bd0b68bd8",
+  "active": "431c8a8e554904cb",
   "lastOpenFiles": [
-    "Database/media/Pasted image 20230920160753.png",
     "Database/Shéma relationnel.md",
+    "Database/Algèbre relationnelle.md",
+    "Obsidian math.md",
+    "Database/media/Pasted image 20230920160753.png",
     "Database/media/Pasted image 20230920161928.png",
     "Database/media/Pasted image 20230920161914.png",
     "Database/media/Pasted image 20230920160804.png",
@@ -179,7 +193,6 @@
     "Database/media",
     "Réseaux/Module 3.md",
     "Database",
-    "Obsidian math.md",
     "Réseaux/Module 2.md",
     "Réseaux/Quiz 3.md",
     "obsidian",
