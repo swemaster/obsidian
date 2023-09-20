@@ -8,27 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "71f41cef19a480be",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "fa71264b2353d6f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Réseaux/Quiz 3.md",
+                "file": "Réseaux/Module 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8175bd5bc9548ef3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Réseaux/media/Pasted image 20230920100050.png"
+              }
+            }
+          },
+          {
+            "id": "7a6b1e3c11758c47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Réseaux/Module 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8b97dd4ca4b91204",
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Réseaux/Quiz 3.md",
+                "file": "Réseaux/Module 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Réseaux/Quiz 3.md",
+                "file": "Réseaux/Module 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Réseaux/Quiz 3.md"
+                "file": "Réseaux/Module 3.md"
               }
             }
           }
@@ -155,19 +170,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa71264b2353d6f7",
+  "active": "7a6b1e3c11758c47",
   "lastOpenFiles": [
+    "Pasted image 20230920111105.png",
+    "Pasted image 20230920110952.png",
+    "Pasted image 20230920110613.png",
+    "Obsidian math.md",
+    "Réseaux/media/Pasted image 20230920100050.png",
+    "Réseaux/Module 3.md",
+    "Réseaux/media/Pasted image 20230920105831.png",
+    "Réseaux/media/Pasted image 20230920105642.png",
+    "Réseaux/media/Pasted image 20230920104916.png",
+    "Réseaux/media/Pasted image 20230920104905.png",
+    "Réseaux/media/Pasted image 20230920104857.png",
+    "Réseaux/media/Pasted image 20230920104849.png",
+    "Réseaux/media/Pasted image 20230920104837.png",
     "Réseaux/Module 2.md",
     "Réseaux/Quiz 3.md",
     "obsidian",
-    "Réseaux/media/Pasted image 20230919132259.png",
     "Réseaux/media",
-    "Réseaux/media/Pasted image 20230919134249.png",
-    "Réseaux/media/Pasted image 20230919133527.png",
-    "Réseaux/media/Pasted image 20230919133157.png",
-    "Réseaux/media/Pasted image 20230919133106.png",
-    "Réseaux/media/Pasted image 20230919133055.png",
-    "Réseaux/media/Pasted image 20230919133027.png",
     "Réseaux"
   ]
 }

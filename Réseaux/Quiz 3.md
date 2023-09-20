@@ -113,8 +113,11 @@ W_min = 13
 4. C1 et C2 distance de 4000 km, communication fait en duplex à 1 Mbps
 Trame de 1500 octets
 Probabilité d'erreur = 0,25
+ACK négligeable
 
 1  / 2a +1 si P_e > 0 => 1-P_e / 2a+1
-a)
+a) Effica norma = ? si on utilise *Stop-and-Wait* 
 
-b)
+b) Effica noma = ? si on utilise Go-Back-N à N retransmissions, considérant W = 10 trames (taille fenêtre)
+
+
