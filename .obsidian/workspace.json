@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "082e93353d3e6d65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conferences/Nventive.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Algèbre relationnelle.md",
+                "file": "Conferences/Nventive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Algèbre relationnelle.md",
+                "file": "Conferences/Nventive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Algèbre relationnelle.md"
+                "file": "Conferences/Nventive.md"
               }
             }
           }
@@ -171,17 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "431c8a8e554904cb",
+  "active": "082e93353d3e6d65",
   "lastOpenFiles": [
-    "Database/Shéma relationnel.md",
+    "Conferences",
     "Database/Algèbre relationnelle.md",
+    "Conferences/Nventive.md",
+    "Database/Shéma relationnel.md",
     "Obsidian math.md",
     "Database/media/Pasted image 20230920160753.png",
     "Database/media/Pasted image 20230920161928.png",
     "Database/media/Pasted image 20230920161914.png",
     "Database/media/Pasted image 20230920160804.png",
     "Database/Diagramme E-A.md",
-    "Untitled",
     "Database/CP1.md",
     "Database/media/Pasted image 20230920151205.png",
     "Database/media/Pasted image 20230920153123.png",
