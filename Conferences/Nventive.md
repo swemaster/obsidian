@@ -61,4 +61,17 @@ Understand the implications of real-time apps (you can ignore informations, upda
 
 Services subscription
 
+## Open Source App templates
+Login de fait
+des logs
+des pipelines
+déploiement
+tests automatisés
+enterprise ready
+everything ready
 
+ils ont 58 repos open source
+des templates d'app mobile
+https://github.com/nventive
+
+https://github.com/nventive/UnoApplicationTemplate
