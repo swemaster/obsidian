@@ -1,6 +1,8 @@
 ##### Ne pas mettre les unites dans les colonnes 
 ex: colonne prix on ne met pas "40$" on met "40"
 
+pour l'examen on etudie jusqu'a la division p.43
+
 ### 1 - Affichez la liste des employes dont la date de naissance est entre 2011 et 2013
 
 Employe()
