@@ -2,23 +2,23 @@ Durée 2h30
 
 la derniere heure du cours (cours apres la relache) sera pour repondre aux questions 
 
-1.
+### 1.
 uml 
 mreise
 
-2.
+### 2.
 etude de cas
 merise -> shema relationnelle
 
-3.
+### 3.
 sous questions
 jointure
 difference
-division
+**division**
 projection
 restriction
 
-4.
+### 4.
 1er chapitre
 introduction
 creation des tables
