@@ -1,5 +1,33 @@
 Durée 2h30
 
+la derniere heure du cours (cours apres la relache) sera pour repondre aux questions 
+
+1.
+uml 
+mreise
+
+2.
+etude de cas
+merise -> shema relationnelle
+
+3.
+sous questions
+jointure
+difference
+division
+projection
+restriction
+
+4.
+1er chapitre
+introduction
+creation des tables
+contraintes
+
+=============
+Faire des anciens examens
+------------------
+
 Matière à l'examen: E-A, Merise, UML, SQL, Shéma relationnel, Algèbre relationnel
 
 À l'examen cela sera comme le TP2, il y aura 1 étude de cas et elle devra être faite en Merise et en UML.
