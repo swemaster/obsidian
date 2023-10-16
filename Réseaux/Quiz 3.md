@@ -1,4 +1,4 @@
-1.
+### Question 1.
 a) Appliquer le bourrage de bits vue en classe avec le marqueur 0 111 111 0
 
 à chaque fois qu'on a 5x1 consécutif on ajoute un 0
@@ -9,108 +9,72 @@ b) Pour la séquence suivante enlever les bits ajoutés et identifiez les marque
 
 après 5x1 consécutif on enlève un 0
 et on enlève les marqueurs
+### Question 2.
+Considérons le *Sliding Window* entre C1 et C2 sur un canal de communication en duplex.
+Quelle est l'efficacité normalisée *Sliding Window*?
 
-2. Quelle est l'efficacité normalisée *Sliding Window*
 infos:
-délai propra = 10 ms
-2000 km
-fenêtre = 10 trames
-taille trames = 1500 octets
-
--------------
-Solution prof
-----------------------
+________________________
+Délai de transmission = 10 ms
+Taille fenêtre = 10 trames
+Taille trame = 1500 octets
+Distance = 2000 km
+_________________________
+#### Solution prof
 délai propa = 2000 km x 5E-6 = 0,01 s (10 ms)
-délai transmi = 0,01 s (10 ms)
-a = 1 
+a = propa/transmission = 10 / 10 = 1
 
 Effi = W / ( 2a + 1 ) = 10 / 2x1 + 1 = 10/3
 2a +1 = 3 < w = 10
 pas le temps
 
-2a+1  < w => il y a transmission continue
-2a+1  > w => il n'y a pas transmission continue, donc efficacité norm. = w / 2a+1
+10 > 3
+W > 2a+1 
+
+w > 2a+1 => il y a transmission continue
+w < 2a+1 => il n'y a pas transmission continue, donc efficacité norm. = w / 2a+1
 
 efficacité normalisée ne peux être plus grand que 1
-
-
 **réponse: efficacité normalisée = 1**
-
--------------
-
-
-
-
-3. Pour que ce soit fluide on a besoin de 25 images / seconde
+### Question 3.
+Pour que ce soit fluide on a besoin de 25 images / seconde
 infos:
 taille image compressée = 10 000 octets
-délai aller-retour = 50 ms
+délai aller-retour (RTT) = 50 ms (50E-3 s})
 trames: 1000 octets de données vidéo, 1078 octets par trame
-débit 10 Mbps
+débit de 10 Mbps
 
-a) Est-il possible de transmettre 25 images / seconde si on utilise *Stop-and-Wait*
-25 images / s = 25 images x 10 000 octets / image = 250 000 octets/ s
-débit = 10 000 000 octets/s 
+### formule du prof: Capacité de transmission = W * D / RTT
+### a) Est-il possible de transmettre 25 images / seconde si on utilise *Stop-and-Wait*
 
-oui
+1) on veut savoir le débit vidéo
+25 images/s x 10 paquets x 1000 octets x  8 bits/paquet = 2 Mbps de débit vidéo
 
---------
-Solution prof
-------------
+2) débit max
+Débit max = Taille trame données / délai =1000 octets x 8 bits/octet / 50E-3 s = 160 000 bps
+= 160 kbps
 
-RTT = road trip time = 50 ms
+On veut transmettre 2 Mbps, mais nous avons 160 kbps. Il sera donc impossible de transmettre 25 images par seconde.
 
-débit vidéo = 25 images/s x 10 paquets/images x 1000 x 8 bits/paquet = 2 Mbs
-efficacité stop and wait = ( D/C ) / ( 2i + F/C + A/C )
-débit max = efficacité * débit = D / RTT = 8000 bits/50 ms = 160 kbps
+### b) Est-il possible de transmettre 25 images / seconde si on utilise *Sliding Window* avec une fenêtre de 10 trames?
 
-on veut transmettre 2 Mbps
-on a 160 kbps
+Capacité de transmission = W * D / RTT
+C = 10 x 8000 / 50E-3
+C = 1,6 Mbps
 
-réponse: non
+On veut transmettre 2 Mbps, mais on a seulement 1,6 Mbps. Cela est donc impossible.
+### c) Quelle est la taille min pour transmettre 25 images / seconde si on utilise *Sliding Window*
 
---------------
+W_min x D / RTT >= 2 Mbps
+D = 1000 octets x 8 bits/octets
+RTT = 50 ms
 
-
-
-b) Est-il possible de transmettre 25 images / seconde si on utilise *Sliding Window*
-fenêtre = 10 trames
-
--------------------------------------------
-Solution prof
---
-
-comment on sait s'il y a transmission continue
-
-2i + F/C + A/C = RTT
-
-W x F/C >= RTT ? Si oui => il y a transmission continue
-10 x (1078x8) / 10 Mbps >= 50 ms
-8,624 ms >= 50, non => pas de transmission conitnue
-
-efficacité sliding window pour transmission non continue
-
-effi. = ( W x D/C ) / RTT
-
-débit max = Effi. x Capacité = 10x8000 bits / 50 ms = 1,6 Mbps => impossible de transmettre nos 2 Mpbs
-
------------------
-
-
-c) Quelle est la taille min pour transmettre 25 images / seconde si on utilise *Sliding Window*
-
--------------
-Solution prof
---
-
-W_min x 8000 bits / 50 ms >= 2 Mbps
+W_min x 8000 bits / 50E-3 s >= 2E6 bps
+2E6 x 50E-3 / 8000  = 12,5
 W_min = 13 
 
--------------
-
-
-(exo 4 à faire pour la semaine prochaine)
-4. C1 et C2 distance de 4000 km, communication fait en duplex à 1 Mbps
+### Question 4. (pas fait)
+C1 et C2 distance de 4000 km, communication fait en duplex à 1 Mbps
 Trame de 1500 octets
 Probabilité d'erreur = 0,25
 ACK négligeable
