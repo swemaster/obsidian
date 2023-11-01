@@ -5,6 +5,7 @@
     "children": [
       {
         "id": "05ab372f4993b4fc",
+        "id": "846af4f303532e3e",
         "type": "tabs",
         "children": [
           {
@@ -35,8 +36,14 @@
                 "mode": "source",
                 "source": false
               }
+            "id": "155e36b2826fe9ca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
+        ]
         ]
       }
     ],
