@@ -1,64 +1,37 @@
 {
   "main": {
-    "id": "33d88125127a21d3",
+    "id": "92aed621e20d9097",
     "type": "split",
     "children": [
       {
-        "id": "05ab372f4993b4fc",
-        "id": "846af4f303532e3e",
+        "id": "32167d475e6e77c8",
         "type": "tabs",
         "children": [
           {
-            "id": "93161025e0eac777",
+            "id": "5f58c38fa6024fe5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Réseaux/Quiz 3.md",
-                "mode": "source",
-                "source": false
+                "file": "Réseaux/media/Pasted image 20231101100458.png"
               }
             }
           }
-        ]
-      },
-      {
-        "id": "9d355e77412765b6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "61bc02940de02c16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Réseaux/Preparation intra/Formules.md",
-                "mode": "source",
-                "source": false
-              }
-            "id": "155e36b2826fe9ca",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
         ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2f8212d0941a038e",
+    "id": "18bbcd7e90cefe8d",
     "type": "split",
     "children": [
       {
-        "id": "6e481ab0c8513237",
+        "id": "ae81e397ca6a43a6",
         "type": "tabs",
         "children": [
           {
-            "id": "e0ae0e24d179d4c6",
+            "id": "a4ca57249378b3e2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +41,7 @@
             }
           },
           {
-            "id": "9ef18a0b6591eba1",
+            "id": "6279d37c2328a6c3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +56,7 @@
             }
           },
           {
-            "id": "58962652ba88a375",
+            "id": "e0e83e1380710871",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,24 +67,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "8b97dd4ca4b91204",
+    "id": "0f59582aa27022b9",
     "type": "split",
     "children": [
       {
-        "id": "f252c9b8ca18bcda",
+        "id": "7c38eda1f2117617",
         "type": "tabs",
         "children": [
           {
-            "id": "b204e2107ff567b3",
+            "id": "72184c1c93092c80",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Réseaux/Quiz 3.md",
+                "file": "Réseaux/media/Pasted image 20231101100458.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,19 +95,19 @@
             }
           },
           {
-            "id": "721609baea7857cf",
+            "id": "176c9ab708be169e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Réseaux/Quiz 3.md",
+                "file": "Réseaux/media/Pasted image 20231101100458.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c4a02427fea3bb96",
+            "id": "955bb87fbf64632b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -146,12 +118,12 @@
             }
           },
           {
-            "id": "0fe63ac570299175",
+            "id": "296ad62cf2e9389c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Réseaux/Quiz 3.md"
+                "file": "Réseaux/media/Pasted image 20231101100458.png"
               }
             }
           }
@@ -172,45 +144,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93161025e0eac777",
+  "active": "a4ca57249378b3e2",
   "lastOpenFiles": [
-    "Réseaux/Preparation intra/Formules.md",
-    "Réseaux/Quiz 3.md",
-    "Pasted image 20231016191919.png",
-    "Pasted image 20231016191844.png",
-    "Pasted image 20231016184102.png",
-    "Pasted image 20231016183629.png",
-    "Pasted image 20231016183554.png",
-    "Pasted image 20231016183529.png",
-    "Réseaux/media/Pasted image 20231016183446.png",
-    "Réseaux/Preparation intra/Quiz 2.md",
-    "Réseaux/Preparation intra/Quiz 1.md",
-    "Réseaux/Preparation intra/recap module 1 à 4.md",
-    "Réseaux/Quiz 4.md",
-    "Réseaux/media/Pasted image 20231016152914.png",
-    "Réseaux/media/Pasted image 20231016160313.png",
-    "Réseaux/media/Pasted image 20231016160256.png",
-    "Réseaux/NDC/Module 2.md",
-    "Réseaux/NDC/Module 1.md",
-    "Réseaux/NDC/Module 3 (QoE QoS).md",
-    "Réseaux/NDC",
-    "Quiz 1.md",
-    "Réseaux/Preparation intra",
-    "Database/Révision CP1.md",
-    "Database/Algebre Relationnelle.md",
-    "Database/Normalisation.md",
-    "Réseaux/NDC/Module 4.md",
-    "Obsidian math.md",
-    "Database/media/Pasted image 20230920150643.png.md",
-    "Database/Shéma relationnel.md",
-    "Database/media",
-    "Database/CP1.md",
-    "Database/Diagramme E-A.md",
-    "Database",
-    "Conferences/Nventive.md",
-    "Conferences",
-    "obsidian",
-    "Réseaux/media",
-    "Réseaux"
+    "Réseaux/NDC/Module 5.md",
+    "Réseaux/media/Pasted image 20231101111400.png",
+    "Réseaux/media/Pasted image 20231101111211.png",
+    "Réseaux/media/Pasted image 20231101111114.png",
+    "Réseaux/media/Pasted image 20231101110705.png",
+    "Réseaux/media/Pasted image 20231101110652.png",
+    "Réseaux/media/Pasted image 20231101110458.png",
+    "Réseaux/media/Pasted image 20231101110429.png",
+    "Réseaux/media/Pasted image 20231101110424.png",
+    "Réseaux/media/Pasted image 20231101110412.png",
+    "Réseaux/media/Pasted image 20231101110219.png",
+    "Réseaux/INF3405_intra_A23.pdf"
   ]
 }
